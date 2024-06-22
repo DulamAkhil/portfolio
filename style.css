@@ -1,0 +1,80 @@
+body{
+        background-color:none;
+}
+img{
+     border: 4px solid white;
+     border-radius: 350px ; 
+     box-shadow: 2px 4px 25px rgb(175, 178, 188);     
+}
+
+img:hover{
+        box-shadow: 2px 4px 25px rgb(25, 38, 83);
+}
+.container {
+        display: flex;
+        flex-wrap: wrap;
+}
+.item1{
+        flex: 1;
+        padding: 50px;
+        margin-left: 90px;
+        margin-top: 60px;
+        text-align: center;
+
+        
+}
+.item2{
+        flex:1;
+        padding: 10px;
+        margin-right: 10px; 
+        
+               
+}
+i{
+        font-size:x-large;
+        color: orange;
+}
+
+#lan{
+        border: 4px solid white;
+        border-radius: 20px ; 
+         
+}
+
+.hov:hover{
+        text-decoration: underline;
+        font-weight: 100;
+}
+.bt{
+        border: none;
+        display: inline;
+        margin-right: 8px;
+        
+}
+.footer{
+        background-color:rgb(7, 7, 7);
+        color: white;
+        height: 650px;
+}
+
+.contact{
+        text-align: center;
+        display: inline;
+        padding: 3px;
+}
+
+.logos>button{
+        display: flex;
+        display: inline;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+
+}
+.logos>button:hover{
+        background-color: rgb(190, 62, 34);
+}
+
+html{
+        scroll-behavior: smooth;
+}
